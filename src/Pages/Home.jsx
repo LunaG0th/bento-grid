@@ -7,7 +7,6 @@ function Home() {
     <div>
       <Bento />
     </div>
-    <footer style={{textAlign: 'center'}}>footer</footer>
     
     </>
   )

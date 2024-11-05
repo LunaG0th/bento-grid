@@ -11,9 +11,6 @@ import styles from './Bento.module.css';
 function Bento() {
   return (
     <section>
-      <div className={styles.title}>
-        <h1>Beto Grid</h1>
-      </div>
       <div className={`${styles.bento} container`}>
         <div className={styles.bento__row}>
           <div className={styles.box1}>
