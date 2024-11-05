@@ -1,0 +1,131 @@
+/* =======================
+    media queries
+======================= */
+
+/* sm 640px */
+/* @media (width >= 40em) { } */
+
+/* md 768px */
+/* @media (width >= 48em) { } */
+
+/* lg 1024px */
+/* @media (width >= 64em) { } */
+
+/* xl 1280px */
+/* @media (width >= 80em) { } */
+
+/* 2xl 1536px */
+/* @media (width >= 96em) { } */
+
+
+/* Google Font  */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+/* Google Icons  */
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_upward');
+
+
+.btn {
+  padding: 1em;
+  border-radius: 50px;
+  background-color: var(--clr-yellow);
+  color: var(--clr-violet);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-out,
+    background-color 0.5s ease-in-out;
+}
+
+.btn:hover {
+  background-color: var(--clr-violet);
+  color: var(--clr-white);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(44, 37, 35, 0.5);
+}
+
+.bx-shadow {
+  box-shadow: 0 4px 8px rgba(44, 37, 35, 0.5);
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid salmon; */
+}
+
+.container-fluid {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-left: 0.5em;
+  padding-right: 0.5em; */
+  /* border: var(--temp); */
+}
+
+/* section {
+  border: var(--temp);
+} */
+
+/**
+ * ----------------------------------------
+ * media queries
+ * ----------------------------------------
+ */
+
+/* xs */
+@media (width >= 475px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* sm */
+@media (width >= 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* md */
+@media (width >= 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* lg */
+@media (width >= 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/* xl */
+@media (width >= 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* 2xl */
+@media (width >= 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+  /* body {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(44, 37, 35, 0.5);
+    padding: 0 .5rem;
+  } */
+}
+
+/* @media (width >= 1800px) {
+    .container {
+   max-width: 1800px;
+}
+   body {
+    width: 65%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(44,37,35, 0.5);
+   }
+} */
